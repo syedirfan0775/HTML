@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+<body bgcolor="#fafad2">
+
+    <h1>Employee Registration Form</h1>
+
+    <form>
+        Employee Name: <input type="text" name="emp_name" placeholder="Enter your name"><br><br>
+
+        Password: <input type="password" name="password"><br><br>
+
+        Email: <input type="email" name="email"><br><br>
+
+        Mobile Number: <input type="tel" name="mobile"><br><br>
+
+        Age: <input type="number" name="age" style="width: 60px;"><br><br>
+
+        Date of Birth: <input type="date" name="dob"><br><br>
+
+        Preferred Interview Time: <input type="time" name="interview_time"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        Skills:
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS
+        <input type="checkbox" name="skills" value="javascript"> JavaScript<br><br>
+
+        Select Department:
+        <select name="department">
+            <option value="">Select Department</option>
+            <option value="hr">HR</option>
+            <option value="it">IT</option>
+            <option value="finance">Finance</option>
+            <option value="marketing">Marketing</option>
+        </select><br><br>
+
+        Upload Resume: <input type="file" name="resume"><br><br>
+
+        Address: <textarea name="address" rows="5" cols="35" placeholder="Enter your address"></textarea><br><br>
+
+        Work Experience: <input type="range" name="experience" min="0" max="20"><br><br>
+
+        LinkedIn Profile: <input type="url" name="linkedin" placeholder="Enter LinkedIn URL"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="reset">
+    </form>
+
+</body>
+</html>
